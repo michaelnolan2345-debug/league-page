@@ -21,7 +21,7 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 
 export const managers = [
     {
-      "roster": 73380302323458048,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Michael Nolan",
       "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": null, // (optional)
@@ -41,7 +41,7 @@ export const managers = [
       "philosophy": "Your fantasy team's philosophy",
       "tradingScale": 10, // 1 - 10
       "preferredContact": null, // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    }
+    },
   ]
   
   
