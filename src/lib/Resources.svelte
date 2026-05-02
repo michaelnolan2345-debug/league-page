@@ -97,6 +97,22 @@ import { dynasty } from './utils/helper';
             separator: false,
             dynastyOnly: false,
         },
+        {
+            name: "Benny Bean Rules",
+            url: "https://docs.google.com/document/d/1tNdsuAuYxGKLYYzOaAVyDieJgKHchHC-KGl5T9GRGqs/edit?tab=t.0",
+            icon: "assessment",
+            premium: false,
+            separator: false,
+            dynastyOnly: false,
+        },
+        {
+            name: "Benny Bean Contracts",
+            url: "https://docs.google.com/spreadsheets/d/10texVGui0kIr_C_ZMihLFn32tHimocGjhA-sO4yqqKc/edit?gid=1049935911#gid=1049935911",
+            icon: "assessment",
+            premium: false,
+            separator: false,
+            dynastyOnly: false,
+        },
     ];
 </script>
 
