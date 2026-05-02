@@ -131,7 +131,7 @@
     
     <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Positional Breakdown</h3>
     
-    <p>28 Total Players</p>
+    <p>22 Total Players</p>
     
     <p class="underscore">Starters</p>
     <ul>
