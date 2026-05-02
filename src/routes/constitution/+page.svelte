@@ -126,21 +126,10 @@
         <h4 class="noUnderscore clickable" onclick={() => goToSection(fourOne)}>4.1 Playoffs</h4>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(fourTwo)}>4.2 Playoff Tiebreakers</h4>
 
-    <h3 class="noUnderscore clickable" onclick={() => goToSection(five)}>Section 5: Tanking Policy</h3>
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(seven)}>Section 5: League Finances</h3>
     
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(fiveOne)}>5.1 League Tanking Policy</h4>
-
-    <h3 class="noUnderscore clickable" onclick={() => goToSection(six)}>Section 6: Replacing Managers</h3>
-    
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixOne)}>6.1 Removing Managers</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixTwo)}>6.2 Replacing Managers</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixThree)}>6.3 Replacement Incentive</h4>
-
-    <h3 class="noUnderscore clickable" onclick={() => goToSection(seven)}>Section 7: League Finances</h3>
-    
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(sevenOne)}>7.1 League Dues</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixTwo)}>7.2 Payout</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixThree)}>7.3 Raising Dues</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sevenOne)}>5.1 League Dues</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixTwo)}>5.2 Payout</h4>
     
     
     <hr />
@@ -238,45 +227,90 @@
     
     <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
     
-    <h3 bind:this={twoOne}>2.1 Draft Order</h3>
-    <p>The draft order each year will be a linear draft in reverse order of the previous year’s regular season standings.</p>
+    <h3 bind:this={twoOne}>2.1 Draft Format</h3>
+    <p>The Benny Bean Inaugural Draft will be an Auction format draft, including rookies. The winning bid will set the acquired player’s base salary for their team. Starting in Year 2 the league will split the offseason draft into two formats, the Annual Rookie Draft and the Free Agent Auction. The salary at the time of draft will be considered a waiver bid price for the remainder of the year if the player is dropped.</p>
 
     <h3 bind:this={twoTwo}>2.2 Rookie Drafts</h3>
-    <p>Rokkie drafts will consist of 3 round of drafting, with 5 minutes alotted for each pick. To make room for the incoming players, benches will be expanded by (5) spots. These spots will be removed in mid-August, at which point you will need to have cut the necessary players.</p>
-    <p>Any spots not filled during the draft, can be filled immediately afterwards from the waiver wire.</p>
+    <p>The rookie draft will take place after the annual NFL draft and will be a three round traditional draft format. Draft selections will be determined by previous season records. The playoff teams will be reseeded for draft purposes based on results. Draft order will be determined by using the lowest scores based on Perfect lineups (which is calculated by sleeper) for the non-playoff teams and then playoff finish otherwise.</p>
+        <ol>
+        <li>1.01 - Lowest MAXpf</li>
+        <li>1.02 - 2nd Lowest MAXpf</li>
+        <li>1.03 - 3rd Lowest MAXpf</li>
+        <li>1.04 - 4th lowest MAXpf</li>
+        <li>1.05 - 5th lowest MAXpf</li>
+        <li>1.06 - 6th lowest MAXpf</li>
+        <li>1.07 - 6th place (playoff seeding determines tiebreaker with 5th place)</li>
+        <li>1.08 - 5th place (playoff seeding determines tiebreaker with 6th place)</li>
+        <li>1.09 - 4th place</li>
+        <li>1.10 - 3rd place</li>
+        <li>1.11 - 2nd place</li>
+        <li>1.12 - 1st place</li>
+    </ol>
     
-    <h3 bind:this={twoThree}>2.3 Draft Day Trades</h3>
-    <p>If a trade is being made during the draft, one or both parties can alert the commissioner to pause the draft to allow for extra time to negotiate the trade.</p>
+    <h3 bind:this={twoThree}>2.3 Rookie Pay Scale</h3>
+    <p>Rookies will be assigned a starting salary following the pay scale below:</p>
+    <ol>
+    <li>1.01 - 70$<li>
+    <li>1.02 - 67$<li>
+    <li>1.03 - 64$<li>
+    <li>1.04 - 61$<li>
+    <li>1.05 - 58$<li>
+    <li>1.06 - 55$<li>
+    <li>1.07 - 52$<li>
+    <li>1.08 - 49$<li>
+    <li>1.09 - 46$<li>
+    <li>1.10 - 43$<li>
+    <li>1.11 - 40$<li>
+    <li>1.12 - 37$<li>
+    <li>2.01 - 34$<li>
+    <li>2.02 - 31$<li>
+    <li>2.03 - 28$<li>
+    <li>2.04 - 25$<li>
+    <li>2.05 - 22$<li>
+    <li>2.06 - 19$<li>
+    <li>2.07 - 16$<li>
+    <li>2.08 - 13$<li>
+    <li>2.09 - 10$<li>
+    <li>2.10 -  7$<li>
+    <li>2.11 -  4$<li>
+    <li>2.12 -  1$<li>
+    <li>3.01 -  1$<li>
+    <li>3.02 -  1$<li>
+    <li>3.03 -  1$<li>
+    <li>3.04 -  1$<li>
+    <li>3.05 -  1$<li>
+    <li>3.06 -  1$<li>
+    <li>3.07 -  1$<li>
+    <li>3.08 -  1$<li>
+    <li>3.09 -  1$<li>
+    <li>3.10 -  1$<li>
+    <li>3.11 -  1$<li>
+    <li>3.12 -  1$<li>
+     </ol>
+    <h2 class="sectionHeading" bind:this={four}>Section 3 Postseason</h2>
     
-    <h2 class="sectionHeading" bind:this={three}>Section 3 Scoring System</h2>
-
-    <h3 bind:this={threeOne}>3.1 Scoring System</h3>
-    <p>The league scoring system breakdown is listed on the Sleeper fantasy app (for the most part, it follows typical .5PPR Scoring). The scoring system will never change without a majority league vote.</p>
+    <h3 bind:this={fourOne}>3.1 Playoffs</h3>
+    <p>At the end of the season 6 teams will make the playoffs. The first round of playoffs will commence in week 15. The top two teams in each division by record and the 2 wild card teams that finish with the most points will receive a playoff berth. The 2 teams that win their division will receive a bye week in the first round of the playoffs. The highest seed in each round gets to choose their opponent from among the remaining teams. Each playoff matchup will only last one week and the winner will advance. Week 18 will not be used.</p>
     
-    <h2 class="sectionHeading" bind:this={four}>Section 4 Postseason</h2>
-    
-    <h3 bind:this={fourOne}>4.1 Playoffs</h3>
-    <p>At the end of the season 6 teams will make the playoffs. The first round of playoffs will commence in week 15. Each team that wins their division and the 4 wild card teams that finish with the best records, will receive a playoff berth. The 2 teams that win their division will receive a bye week in the first round of the playoffs. Each playoff matchup will only last one week and the winner will advance. Week 18 will not be used.</p>
-    
-    <h3 bind:this={fourTwo}>4.2 Seeding Tiebreakers</h3>
-    <p>If two teams finish with the same record the tiebreakers will go as followed:</p>
+    <h3 bind:this={fourTwo}>3.2 Seeding Tiebreakers</h3>
+    <p>Record determines who wins their division and takes 2nd place in a division. From there seeds are determined as follows:</p>
 
     <ol>
-        <li>Points For</li>
-        <li>Head 2 Head Record</li>
-        <li>Division Record</li>
-        <li>Total Points Against</li>
-        <li>Coin Flip</li>
-        <li>Duel to the death</li>
+        <li>1 - Conference Champion (higher total points)</li>
+        <li>2 - Conference Champion (lower total points)</li>
+        <li>3 - Conference Runner-up (higher total points)</li>
+        <li>4 - Conference Runner-up (lower total points)</li>
+        <li>5 - Wild Card (highest remaining total points)</li>
+        <li>6 - Wild Card (highest remaining total points)</li>
     </ol>
 
 
-    <h2 class="sectionHeading" bind:this={seven}>Section 7 League Finances</h2>
+    <h2 class="sectionHeading" bind:this={seven}>Section 4 League Finances</h2>
     
-    <h3 bind:this={sevenOne}>7.1 League Dues</h3>
+    <h3 bind:this={sevenOne}>4.1 League Dues</h3>
     <p>League dues are set at {dues}$.</p>
     
-    <h3 bind:this={sevenTwo}>7.2 Payout</h3>
+    <h3 bind:this={sevenTwo}>4.2 Payout</h3>
     <p>League payout is structured as follows:</p>
     <ul>
         <li>1st place: {dues * 7}$</li>
