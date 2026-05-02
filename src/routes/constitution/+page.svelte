@@ -115,21 +115,18 @@
     
         <h4 class="noUnderscore clickable" onclick={() => goToSection(twoOne)}>2.1 Draft Order</h4>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(twoTwo)}>2.2 Rookie Drafts</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(twoThree)}>2.3 Draft Day Trades</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(twoThree)}>2.3 Rookie Pay Scale</h4>
     
-    <h3 class="noUnderscore clickable" onclick={() => goToSection(three)}>Section 3: Scoring System</h3>
     
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(threeOne)}>3.1 Voting on Scoring System</h4>
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(four)}>Section 3: Postseason</h3>
     
-    <h3 class="noUnderscore clickable" onclick={() => goToSection(four)}>Section 4: Postseason</h3>
-    
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(fourOne)}>4.1 Playoffs</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(fourTwo)}>4.2 Playoff Tiebreakers</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(fourOne)}>3.1 Playoffs</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(fourTwo)}>3.2 Playoff Tiebreakers</h4>
 
-    <h3 class="noUnderscore clickable" onclick={() => goToSection(seven)}>Section 5: League Finances</h3>
+    <h3 class="noUnderscore clickable" onclick={() => goToSection(seven)}>Section 4: League Finances</h3>
     
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(sevenOne)}>5.1 League Dues</h4>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixTwo)}>5.2 Payout</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sevenOne)}>4.1 League Dues</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(sixTwo)}>4.2 Payout</h4>
     
     
     <hr />
