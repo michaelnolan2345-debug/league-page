@@ -104,19 +104,15 @@
         <h4 class="noUnderscore clickable" onclick={() => goToSection(oneOne)}>1.1 Positional Breakdown</h4>
             <h5 class="noUnderscore clickable" onclick={() => goToSection(oneOneOne)}>1.1.1 Position Maximums</h5>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(oneTwo)}>1.2 Trading</h4>
-            <h5 class="noUnderscore clickable" onclick={() => goToSection(oneTwoOne)}>1.2.1 Trade Collusion</h5>
-            <h5 class="noUnderscore clickable" onclick={() => goToSection(oneTwoTwo)}>1.2.2 Lending Players Prohibition</h5>
-            <h5 class="noUnderscore clickable" onclick={() => goToSection(oneTwoThree)}>1.2.3 Trade Deadline</h5>
-            <h5 class="noUnderscore clickable" onclick={() => goToSection(oneTwoFour)}>1.2.4 Trade Restrictions</h5>
-            <h5 class="noUnderscore clickable" onclick={() => goToSection(oneTwoFive)}>1.2.5 Veto/Trade Process</h5>
-        <h4 class="noUnderscore clickable" onclick={() => goToSection(oneThree)}>1.3 Waiver Wire</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(oneThree)}>1.3 Player Salaries</h4>
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(oneFour)}>1.4 Offseason Roster Compliance</h4>
     
     <h3 class="noUnderscore clickable" onclick={() => goToSection(two)}>Section 2: Drafting</h3>
     
         <h4 class="noUnderscore clickable" onclick={() => goToSection(twoOne)}>2.1 Draft Order</h4>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(twoTwo)}>2.2 Rookie Drafts</h4>
         <h4 class="noUnderscore clickable" onclick={() => goToSection(twoThree)}>2.3 Rookie Pay Scale</h4>
-    
+        <h4 class="noUnderscore clickable" onclick={() => goToSection(twoFour)}>2.4 Offseason Free Agent Auction</h4>
     
     <h3 class="noUnderscore clickable" onclick={() => goToSection(four)}>Section 3: Postseason</h3>
     
@@ -175,52 +171,18 @@
     <p>Teams may trade draft picks up to two years in advance. Using the 2023 season as an example, this means that the 2023/2024/2025 draft picks are available as tradeable assets.</p>
 
     <p>If a player on a rookie contract is traded, it will be reverted to a veteran contract upon acquisition.</p>
+    
+    
+    
+    <h3 bind:this={oneThree}>1.3 Offseason Free Agent Auction</h3>
+    
+    <p>After the rookie draft is completed, The annual salaries for veterans will increase and  teams will determine which players to extend and which players to release into the free agent pool. Teams must be at or below the 1000$ salary cap. The league will then proceed with a veteran free agent auction draft. Teams below the cap will have their remaining cap space to use during this auction to bid on free agents.</p>
 
-    <h4 bind:this={oneTwoOne}>1.2.1 Trade Collusion</h4>
-    <div class="subBlock">
-        <p>If any owners are suspected of accepting bribes/offering bribes to enhance their/another owners team via trade, trading any assets other than fantasy players, draft picks, FAAB $, or otherwise found guilty of engaging in any form of collusion*, all parties involved in the trade will be susceptible to punishment. The punishments will go as followed:</p>
-        
-        <ul>
-            <li>First Offense – Immediate reduction of FAAB budget by 80%</li>
-            <li>Second Offense – Immediate freeze on all transaction types for the next 18 weeks of regular season and playoff fantasy football games, including trades and waiver wire bids</li>
-            <li>Third Offense – A league meeting of all members not involved in any of the improper trades/activity in question will take place to discuss next steps.</li>
-        </ul>
+    <h3 bind:this={oneFour}>1.4 Offseason Roster Compliance</h3>
+    
+    <p>On May 15th (5/15) of every season teams must cut players until the roster is set to the 1000$ cap. You may again go over this cap via trade and rookie draft on May 16th (5/16). The rookie draft will always take place no earlier than May 16th (5/16) each year. There will be a second roster cuts date deadline one week before the auction draft each year. At this time, rosters will lock and teams are not allowed to cut or add players via trade or free agency until after the auction draft. These cuts can be made publicly or privately until the due date. On Cut Day, all roster cuts will be published to the league. Teams who would like to make private roster cuts may submit them to officialbennybeandynasty@gmail.com. This round of cuts locks in the auction budget for each individual team. Once the auction is completed, the season has officially started and offseason compliance rules no longer apply.</p>
 
-        <p>All trades that are found guilty of collusion, will be reversed/denied. If the trade had affected the outcome of previous games, the results of those games will be revised.  </p>
-
-        <p>*Collusion includes the organizing of veto votes against an acceptable trade.</p>
-
-        <p>The commissioner will err on the side of letting owners manage their teams the way they see fit. Any collusion will need to be clear. The commissioner reserves the right to step in and at the very least assess the thinking of any team involved in a heavily lop-sided trade. </p>
-    </div>
-
-    <h4 bind:this={oneTwoTwo}>1.2.2 Lending Players Prohibition</h4>
-    <div class="subBlock">
-        <p>Any player traded from a team may not be re-acquired via trade within 6 weeks of the original trade. Any teams involved in this behavior will be subject to the aforementioned collusion punishments.</p>
-    </div>
-    
-    <h4 bind:this={oneTwoThree}>1.2.3 Trade Deadline</h4>
-    <div class="subBlock">
-        <p>The trade deadline will be set for the Saturday of the week 11 games of the NFL season.</p>
-    </div>
-    
-    <h4 bind:this={oneTwoFour}>1.2.4 Trade Restrictions</h4>
-    <div class="subBlock">
-        <p>You will not be able to trade draft picks that are more than 3 drafts away. For example, during the 2021 season you cannot trade any picks in or after the 2025 draft. You may only trade FAAB $ from the current season.</p>
-    </div>
-    
-    <h4 bind:this={oneTwoFive}>1.2.5 Veto/Trade Process</h4>
-    <div class="subBlock">
-        <p>A total of 7 veto votes are required to veto a trade. Vetoes are only appropriate in instances of collusion or an egregious mismatch of value (i.e. CMC for a backup kicker). Not liking a trade does not warrant a veto.</p>
-    </div>
-    
-    
-    
-    <h3 bind:this={oneThree}>1.3 Waiver Wire</h3>
-    
-    <p>FAAB Waiver wire system. Each team will begin the season with $100. $0 bids are allowed. Bids will process Thursdays and Sundays at 9AM EST.</p>
-
-    <p>FAAB budgets will reset each season in January.</p>
-    
+    <p>For both roster cut dates, if a team did not hit the salary cap requirements, the commissioner will cut the most expensive players on that team’s roster (one at a time) until they are at or below the salary cap.</p>  
     
     <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
     
@@ -284,6 +246,10 @@
     <li>3.11 -  1$</li>
     <li>3.12 -  1$</li>
      </ol>
+
+    <h3 bind:this={twoFour}>2.4 Offseason Free Agent Auction</h3>
+    <p>After the rookie draft is completed, The annual salaries for veterans will increase and  teams will determine which players to extend and which players to release into the free agent pool. Teams must be at or below the 1000$ salary cap. The league will then proceed with a veteran free agent auction draft. Teams below the cap will have their remaining cap space to use during this auction to bid on free agents.</p>
+
     <h2 class="sectionHeading" bind:this={four}>Section 3 Postseason</h2>
     
     <h3 bind:this={fourOne}>3.1 Playoffs</h3>
@@ -307,7 +273,7 @@
     <h3 bind:this={sevenOne}>4.1 League Dues</h3>
     <p>League dues are set at {dues}$.</p>
     
-    <h3 bind:this={sevenTwo}>4.2 Payout</h3>
+    <h3 bind:this={sixTwo}>4.2 Payout</h3>
     <p>League payout is structured as follows:</p>
     <ul>
         <li>1st place: {dues * 7}$</li>
