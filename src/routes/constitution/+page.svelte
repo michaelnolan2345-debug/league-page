@@ -161,25 +161,20 @@
         <li>TE</li>
         <li>FLEX (RB/WR/TE)</li>
         <li>FLEX (RB/WR)</li>
-        <li>D/ST</li>
-        <li>K</li>
+        <li>SUPERFLEX (QB/RB/WR/TE)</li>
     </ul>
     
-    <p>18 Bench (Expanded by 5 between the keague draft and start of regular season)</p>
-
-    <p>1 IR Spots (Player must be labeled as IR, Out, or Covid in the Sleeper App)</p>
+    <p>13 Bench Spots</p>
     
         <h4 bind:this={oneOneOne}>1.1.1 Position Maximums</h4>
         
         <div class="subBlock">
             <table class="positionMaximums">
                 <tbody>
-                <tr><td>QB</td><td class="right">3 active, 5 total</td></tr>
-                <tr><td>RB</td><td class="right">20</td></tr>
-                <tr><td>WR</td><td class="right">20</td></tr>
-                <tr><td>TE</td><td class="right">10</td></tr>
-                <tr><td>D/ST</td><td class="right">3</td></tr>
-                <tr><td>K</td><td class="right">3</td></tr>
+                <tr><td>QB</td><td class="right">6 Players</td></tr>
+                <tr><td>RB</td><td class="right">12 Players</td></tr>
+                <tr><td>WR</td><td class="right">12 Players</td></tr>
+                <tr><td>TE</td><td class="right">6 Players</td></tr>
                 </tbody>
             </table>
         </div>
@@ -187,8 +182,14 @@
 
     <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Trading</h3>
     
-    <p>Trading of players and draft picks (up to 3 drafts away) are allowed. Trades will process immediately and will be reversed if vetoed or under investigation for collusion. Tradable assets include players, draft picks, and FAAB $.</p>
-    
+    <p>Teams may trade players in any capacity they see fit. In an effort to incentivize trading and add a fun wrinkle to trades, all players acquired by a new team have their current salary set as Year 1 for salary calculations regardless of how many years they were with a previous team.</p>
+
+    <p>An example: Team A drafts God Shammgod with the first pick in the third round (3.01). During week 5 of Team A’s third season with God Shammgod (3$), Team B offers 3 first round picks for him and team A accepts. Team B now has Shammgod’s contract on Year 1 at 3$, meaning it will not trigger the underpaid salary kicker in the offseason because that player will be calculated using the Year 2 calculation.</p>
+
+    <p>Teams may trade draft picks up to two years in advance. Using the 2023 season as an example, this means that the 2023/2024/2025 draft picks are available as tradeable assets.</p>
+
+    <p>If a player on a rookie contract is traded, it will be reverted to a veteran contract upon acquisition.</p>
+
     <h4 bind:this={oneTwoOne}>1.2.1 Trade Collusion</h4>
     <div class="subBlock">
         <p>If any owners are suspected of accepting bribes/offering bribes to enhance their/another owners team via trade, trading any assets other than fantasy players, draft picks, FAAB $, or otherwise found guilty of engaging in any form of collusion*, all parties involved in the trade will be susceptible to punishment. The punishments will go as followed:</p>
