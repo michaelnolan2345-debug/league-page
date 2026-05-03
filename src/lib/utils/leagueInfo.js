@@ -7,7 +7,9 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Benny Bean Year 4</p>
+  <p>Welcome to Benny Bean Dynasty League Year 4! </p>
+
+  <p> May 15th is cut day. 10 teams need to cut players to meet the requirements. </p>
 `;
 
 /*   STEP 3   */
